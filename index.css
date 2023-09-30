@@ -1,12 +1,4 @@
-/* Styles for mobile devices */
-@media (max-width: 767px) {
-    /* Your mobile-specific styles here */
-}
 
-/* Styles for larger screens (desktop) */
-@media (min-width: 768px) {
-    /* Your desktop-specific styles here */
-}
 
 body{
     font-family: century !important;
