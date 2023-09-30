@@ -1,5 +1,16 @@
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    /* Your mobile-specific styles here */
+}
+
+/* Styles for larger screens (desktop) */
+@media (min-width: 768px) {
+    /* Your desktop-specific styles here */
+}
+
 body{
     font-family: century !important;
+   
 }
 nav{
     background-color: antiquewhite;
@@ -59,7 +70,7 @@ nav a:hover{
 }
 /*Here starts main Content */
 .main{
- width: 100%;
+ width: 1505px;
  height: 700px;
  background-color: black;
  margin: 0px;
@@ -134,9 +145,23 @@ nav a:hover{
     flex-direction: column;
     justify-content: flex-end;
     position: relative;
-    margin-top: -600px;
+    margin-top: -420px;
     margin-left: 900px;
     color: whitesmoke;
+ }
+ .heading{
+    margin-top: -450px;
+    margin-left: 900px;
+    color: whitesmoke;
+    width: 550px;
+    font-size: 50px;
+    text-shadow: 0 2px 2px orange;
+    font-family: century Gothic !important;
+ }
+ .heading:hover{
+    text-shadow: 0 2px 2px white;
+    color: orange;
+
  }
  /* Form*/
 
@@ -224,11 +249,12 @@ background: orange;
 /*Main Image code */
 .image{
     margin-top: -690px;
-    color: whitesmoke;
+    
     margin-left: 230px;
     
     background: transparent;
 }
+
 
 
  
